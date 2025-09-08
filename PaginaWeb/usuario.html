@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de la Tienda de Café</title>
+</head>
+<body style="background-color: beige; font-family: Arial, sans-serif; padding:18px;">
+
+    <h1 style="text-align:center; color:#1a7a3a;">☕ Bienvenido a PupuStrom</h1>
+    <h2 style="color:#5c3d2e;">REGISTRO DE CLIENTE</h2>
+    <form action="registroCliente.html" method="post" style="background:#fff8f0; padding:20px; border:2px solid #1a7a3a; border-radius:10px; max-width:500px; margin:auto;">
+        <p><label for="nombre"> Nombre: <input type="text" id="nombre" name="nombre" style="padding:6px; margin-left:10px; border-radius:5px; border:1px solid #aaa;"></label></p>
+        <p><label for="apellido"> Apellido: <input type="text" id="apellido" name="apellido" style="padding:6px; margin-left:10px; border-radius:5px; border:1px solid #aaa;"></label></p>
+        <p><label for="telefono"> Teléfono: <input type="text" id="telefono" name="telefono" style="padding:6px; margin-left:10px; border-radius:5px; border:1px solid #aaa;"></label></p>
+        <p><label for="correo"> Correo electrónico: <input type="email" id="correo" name="correo" style="padding:6px; margin-left:10px; border-radius:5px; border:1px solid #aaa;"></label></p>
+        <p><label for="edad"> Edad: <input type="number" id="edad" name="edad" style="padding:6px; margin-left:10px; border-radius:5px; border:1px solid #aaa;"></label></p>
+        <p>
+            <label for="entrega"> Dirección de entrega:</label><br>
+            <textarea name="entrega" id="entrega"
+                style="height:120px;width: 95%; font-size: 16px; border-radius:5px; border:1px solid #aaa; padding:8px;">
+            </textarea>
+        </p>
+        
+    <hr>
+
+    <h3 style="color:#5c3d2e;">ELECCIÓN DEL CAFÉ</h3>
+    <p><label for="tipocafe"> Tipo de café:
+        <select name="tipocafe" id="tipocafe" style="padding:6px; border-radius:5px; border:1px solid #aaa;">
+            <option value="">Seleccione</option>
+            <option value="espresso">Espresso</option>
+            <option value="americano">Americano</option>
+            <option value="capuccino">Capuccino</option>
+            <option value="latte">Latte</option>
+            <option value="flat_white">Flat White</option>
+            <option value="macchiato">Macchiato</option>
+            <option value="mocha">Mocha</option>
+            <option value="cortado">Cortado</option>
+            <option value="affogato">Affogato</option>
+            <option value="irish_coffee">Irish Coffee</option>
+        </select>
+    </label></p>
+
+    <p><label>Opciones extra:</label></p>
+    <input type="checkbox" name="extras" value="azucar">
+    <label> Con azúcar</label><br>
+    <input type="checkbox" name="extras" value="leche">
+    <label> Con leche</label><br>
+    <input type="checkbox" name="extras" value="crema">
+    <label> Con crema</label><br>
+    <input type="checkbox" name="extras" value="chocolate">
+    <label> Con chocolate</label><br>
+    <hr>
+
+    <p style="text-align:center;">
+        <button type="submit" style="background:#1a7a3a; color:white; font-size:16px; padding:12px 18px; border:none; border-radius:8px; cursor:pointer;">
+            REGISTRAR PEDIDO
+        </button>
+    </p>
+    </form>
+
+</body>
+</html>
