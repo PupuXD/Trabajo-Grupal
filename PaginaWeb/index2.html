@@ -6,41 +6,48 @@
     <title>Registro - Tienda de Café</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
-<body style="background-color: beige; font-family: Arial, sans-serif; padding: 18px;">
-    <!-- H1 presente pero recortado y fuera del área visible -->
-    <!-- Es importante para la busqueda y encuentro de esta pagina-->
-     <!-- Ya que la palabra clave esta en el H1-->
-    <h1 style="position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap;">
-        Pupustrom
-    </h1>
+<body class="body1">
+    <div class="contenedor">
+        <header>
+            <h1>PUPUSTROM COFFEE</h1>
+            <p id="#historia">Bienvenido a Pupustrom</p>
+            <p>La mejor cafetería. Explora nuestros productos abajo.</p>
+        </header>
 
-    <!-- Menú superior -->
-    <nav style="
-        background: #21a45a; 
-        color: white;
-        padding: 8px 16px;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-    ">
+        <nav class="ayudante">  <!-- enlaces internos  -->
+            <a href="#">INICIO</a>
+            <a href="#tablas">PRODUCTOS</a>
+            <a href="usuario.html">FORMULARIO DE REGISTRO CLIENTE</a>
+            <a href="https://www.viabcp.com">BCP</a>
+            <a href="https://www.bbva.pe">BBVA</a>
+            <a href="https://www.interbank.com.pe">INTERBANK</a>
+        </nav>
+
+    <div style="display: inline-block">
+        <img class="clase_Absolute"
+        style="border: 9px dotted; color: rgb(253, 55, 29)"
+        src="fotosCaffes/logo.png"    alt="IMAGEN NO DISPONIBLE"
+        width="400"         height="341">
+    </div>
 
     <div style="display:flex; align-items:center; justify-content:space-between; max-width:1200px; margin:0 auto;">
         
         <div style="display:flex; align-items:center; gap:10px;">
-        <span style="font-size:18px;"><img src="https://static.vecteezy.com/system/resources/previews/027/179/401/non_2x/telephone-phone-call-icon-symbol-free-png.png" width="30"></span>
-        <span style="font-weight:600;">Telefono - 01 714 2521</span>
+            <span style="font-size:18px;"><img src="https://static.vecteezy.com/system/resources/previews/027/179/401/non_2x/telephone-phone-call-icon-symbol-free-png.png" width="30"></span>
+            <span style="font-weight:600;">Telefono - 01 714 2521</span>
         </div>
 
         <div style="display:flex; gap:24px; align-items:center;">
-        <a href="#tablas" style="color:white; text-decoration:none; font-weight:600;">CAFFES</a>
-        <a href="usuario.html" style="color:white; text-decoration:none; font-weight:600;">PEDIR SERVICIO</a>
+            <a href="#tablas" style="color:white; text-decoration:none; font-weight:600;">CAFFES</a>
+            <a href="usuario.html" style="color:white; text-decoration:none; font-weight:600;">PEDIR SERVICIO</a>
         </div>
 
         <div style="display:flex; gap:18px; align-items:center;">
-        <a href="https://www.viabcp.com" target="_blank" style="color:white; text-decoration:none; font-size:14px;">BCP</a>
-        <a href="https://www.bbva.pe" target="_blank" style="color:white; text-decoration:none; font-size:14px;">BBVA</a>
-        <a href="https://www.interbank.com.pe" target="_blank" style="color:white; text-decoration:none; font-size:14px;">Interbank</a>
+            <a href="https://www.viabcp.com" target="_blank" style="color:white; text-decoration:none; font-size:14px;">BCP</a>
+            <a href="https://www.bbva.pe" target="_blank" style="color:white; text-decoration:none; font-size:14px;">BBVA</a>
+            <a href="https://www.interbank.com.pe" target="_blank" style="color:white; text-decoration:none; font-size:14px;">Interbank</a>
         </div>
-    </nav>
+    </div>
 
     <h2 id="#historia" style="text-align:center">Bienvenido a Pupustrom</h2>
     <p style="text-align:center">La mejor cafetería. Explora nuestros productos abajo.</p> <hr>
